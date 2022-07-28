@@ -1,7 +1,18 @@
 
 /* import poppins font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 /* common styles */
 body{
     font-family: 'Poppins', sans-serif;
+}
+
+/* large devices */
+@media screen and (min-width: 992px){
+    h1{
+      font-size: 65px !important;
+    }
+    h2{
+      font-size: 45px !important;
+    }
 }
